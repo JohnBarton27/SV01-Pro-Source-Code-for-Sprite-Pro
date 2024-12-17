@@ -73,7 +73,7 @@
 #define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 #define MACVERSION      STRING_CONFIG_H_AUTHOR
 #define SOFTVERSION     SHORT_BUILD_VERSION
-#define MARLINVERSION   "2.0.9.2c"
+#define MARLINVERSION   "2.0.9.2d"
 
 /**
  * *** VENDORS PLEASE READ ***
@@ -1182,7 +1182,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -36.5, -40, 0 }
+#define NOZZLE_TO_PROBE_OFFSET { -10, 0, 0 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
